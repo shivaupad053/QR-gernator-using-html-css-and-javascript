@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qr code gernator</title>
+    <link rel="stylesheet" href="qr.css">
+</head>
+<body>
+    <div class="start">
+        <img src="1626586822_qr-code.webp" alt="">
+        
+    </div>
+    
+    <div class="intro">
+        <h1>QR CODE GERNATOR</h1>
+    </div>
+    <div class="wrapper">
+        <header>
+            <h1>QR CODE GERNATOR</h1>
+            <P>Paste a url or Enter text to create QR</P>
+        </header>
+        <div class="form">
+            <input type="text" placeholder="enter the text or url">
+            <button>Gernate QR</button>
+        </div>
+        <div class="qr-code">
+            <img src="download.png" alt="qr image">
+        </div>
+    </div>
+    
+    <script src="qr.js"></script>
+</body>
+</html>
